@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/tilmelding.css">
+    <title>Tilmelding</title>
 </head>
-<body>
-$END$
-</body>
+    <body>
+    <img id="logoimage" src="../images/cphbusiness-logo-rgb.webp" alt="Cphbusiness logo1"/>
+
+    <br>
+    <h1>Tilmeld dig CPH NEWS</h1>
+    <p>Hold dig opdateret med de seneste nyheder, events og
+        eksklusive opdateringer direkte til din indbakke eller som SMS.</p>
+
+        <h3>1. Valg af tilmeldingsmetode</h3>
+        <p1>Hvordan vil du modtage nyhederne?</p1> <br>
+        <label><input type="radio" name="metode" value="E-mail"/> E-mail</label><br>
+        <label><input type="radio" name="metode" value="SMS"/> SMS</label> <br>
+        <label><input type="radio" name="metode" value="Begge"/> Begge</label>
+
+    <br><br>
+
+    <h3>2. Formularfelter</h3>
+    <div class="webform medium-padding">
+        <div class="row">
+            <label for="fname">Email eller Telefon nummer:</label>
+            <input type="text" id="fname" name="fname" value="John">
+        </div>
+        <div class="row">
+            <label for="lname">Pinkode:</label>
+            <input type="text" id="lname" name="lname" value="Doe">
+        </div>
+    </div>
+
+
+    <h3>3. Samtykke og Privatliv</h3>
+    <label>
+        <input type="radio" name="samtryk" value="Jeg accepterer at modtage nyheder fra CPH NEWS og har læst privatlivspolitikken"/>
+        Jeg accepterer at modtage nyheder fra CPH NEWS og har læst privatlivspolitikken
+    </label><br>
+    <a href="https://www.cphbusiness.dk/om-os/persondatapolitik" target="_blank">privatlivspolitikken</a>
+
+
+    <div class="button-container">
+        <a href="../knapper/bekræftelse.html" class="button">Tilmeld</a>
+    </div>
+
+
+
+    <hr class="custom-line">
+
+    <footer>
+        <p>© 2025 Cphbusiness. Alle rettigheder forbeholdes. <br>
+            Adresse: Cphbusiness, Firskovvej 18, 2800
+            Email: kontakt@cphbusiness.dk Telefon: +45 [Telefonnummer]
+        </p>
+    </footer>
+
+
+
+    </body>
 </html>

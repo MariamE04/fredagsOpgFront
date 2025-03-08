@@ -1,0 +1,62 @@
+/* Specifik CSS for den første container */
+.new-container1 {
+    display: flex;
+    justify-content: center; /* Centrerer boksene vandret */
+    align-items: flex-start; /* Sørger for at boksene er justeret mod toppen */
+    gap: 20px;
+    width: 80%;  /* Bredde på containeren */
+    margin: 0 auto;  /* Centrerer containeren */
+}
+
+/* Specifik styling for boksen */
+.new-box1 {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Begrænser bredden */
+    width: 100%; /* Sørger for at boksen tilpasser sig containerens bredde */
+}
+
+.new-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Flytter boksene til toppen */
+    gap: 20px;
+    width: 80%;
+    margin: 100px auto 0; /* Øger margin-top for at flytte op */
+    min-height: 70vh; /* Større højde for containeren */
+}
+
+/* Styling for hver af de nye bokse */
+.new-box2 {
+    flex: 1;
+    background-color: #ffffff; /* Baggrundsfarve */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lidt skygge for dybde */
+    max-width: 300px; /* Begrænser bredden */
+}
+
+.new-box2 h2 {
+    color: #0c0c0c; /* overskriften sort */
+    margin-bottom: 20px; /* Mellemrum under overskriften */
+}
+
+/* Styling for knapperne */
+button {
+    background-color: #f7a800; /* Knapfarve */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hover-effekt */
+}
+
+button:hover {
+    background-color: #e68900; /* Hover-effekt */
+}

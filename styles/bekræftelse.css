@@ -1,0 +1,79 @@
+.containerB {
+    display: flex; /* Gør boksene til et flexbox-layout */
+    justify-content: center; /* Placerer boksen i midten */
+    gap: 20px;
+    width: 50%;  /* Bredde på containeren */
+    height: 300px;  /* Højde på containeren */
+    margin: 20px auto;
+}
+
+.boxB {
+    position: relative; /* Gør det muligt at placere elementer ovenpå */
+    width: 100%; /* Gør boksen bred nok til at fylde containeren */
+    height: 100%; /* Fyld containerens højde */
+    background-color: #e48f0e; /* Orange baggrund */
+    border: 1px solid #e48f0e; /* Let kant */
+    text-align: center; /* Centrer tekst */
+    display: flex;
+    flex-direction: column; /* Placér elementerne vertikalt */
+    justify-content: space-between; /* Placerer elementerne med afstand */
+    padding: 20px;
+}
+
+.title {
+    font-size: 40px; /* Størrelse på overskriften */
+    font-weight: bold;
+    color: white;
+}
+
+.white-box {
+    background-color: white; /* Hvid baggrund */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #333; /* Mørk tekstfarve */
+}
+
+.new-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Flytter boksene til toppen */
+    gap: 20px;
+    width: 80%;
+    margin: 100px auto 0; /* Øger margin-top for at flytte op */
+    min-height: 70vh; /* Større højde for containeren */
+}
+
+/* Styling for hver af de nye bokse */
+.new-box2 {
+    flex: 1;
+    background-color: #ffffff; /* Baggrundsfarve */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lidt skygge for dybde */
+    max-width: 300px; /* Begrænser bredden */
+}
+
+.new-box2 h2 {
+    color: #0c0c0c; /* overskriften sort */
+    margin-bottom: 20px; /* Mellemrum under overskriften */
+}
+
+/* Styling for knapperne */
+button {
+    background-color: #f7a800; /* Knapfarve */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hover-effekt */
+}
+
+button:hover {
+    background-color: #e68900; /* Hover-effekt */
+}

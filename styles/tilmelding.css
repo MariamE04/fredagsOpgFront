@@ -1,0 +1,54 @@
+.webform{
+    background-color: #668aff;
+    max-width: 300px;
+}
+
+.medium-padding {
+    padding: 20px 20px 10px 20px;
+}
+
+.webform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Lidt luft mellem rækkerne */
+}
+
+.webform label {
+    display: inline-block;
+    width: 180px; /* Fast bredde, så felterne justeres pænt */
+    text-align: right; /* Justerer teksten til højre for et pænt look */
+    margin-right: 10px;
+}
+
+.webform input {
+    width: 200px; /* Justerer inputfeltets bredde */
+}
+
+.row {
+    display: flex;
+    align-items: center; /* Sørger for, at label og input er centreret på linjen */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centrerer knappen horisontalt */
+    margin-top: 20px; /* Tilføjer lidt luft før knappen */
+}
+
+.button {
+    background-color: #f7a800; /* Knapfarve */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Gør teksten centreret i knappen */
+    display: inline-block; /* Så knappen fungerer som et link */
+    text-decoration: none; /* Fjerner understregning fra link */
+    transition: background-color 0.3s; /* Hover-effekt */
+}
+
+.button:hover {
+    background-color: #e68900; /* Skifter farve når man hover over knappen */
+}
