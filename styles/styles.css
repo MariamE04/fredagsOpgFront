@@ -1,0 +1,104 @@
+/* Containeren for de eksisterende bokse */
+.container {
+    display: flex; /* Gør boksene til et flexbox-layout */
+    justify-content: space-between; /* Placerer dem med afstand imellem */
+    gap: 20px;
+    width: 50%;  /* Bredde på containeren */
+    height: 300px;  /* Højde på containeren */
+    margin: 20px auto;
+}
+
+.box {
+    padding: 10px;
+    background-color: #e48f0e; /* orange baggrund */
+    border: 1px solid #e48f0e; /* Let kant */
+    text-align: center; /* Centrer tekst */
+}
+
+/* Styling for body og baggrund */
+body {
+    background-color: #A0BCFE; /* Baggrundsfarve */
+}
+
+/* Styling for logoet */
+#logoimage {
+    position: absolute; /* Placerer logoet øverst til venstre */
+    top: 10px;
+    left: 10px;
+    width: 200px; /* Juster størrelsen */
+    height: auto; /* Beholder proportionerne */
+}
+
+/* Styling for det andet billede */
+#ungeimage {
+    display: block;  /* Sørger for, at billedet står alene på en linje */
+    margin: 15px auto; /* Mindre afstand og centreret */
+    width: 40%;  /* Gør billedet mindre (ændr tallet for at justere) */
+    max-width: 800px; /* Sikrer, at det ikke bliver for stort */
+    height: auto; /* Bevarer proportionerne */
+}
+
+#pyntimage{
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Styling for overskrifter og paragraf */
+h1, p {
+    text-align: center; /* Centrerer teksten */
+    width: 80%; /* Begrænser bredden, så teksten ikke bliver for lang */
+    margin: 20px auto; /* Placerer den midt på siden */
+}
+
+/* Styling for den ekstra linje */
+.custom-line {
+    border: none;               /* Fjern standard kanterne */
+    height: 2px;                /* Bestem højden på linjen */
+    background-color: #0c0c0c;  /* Farven på linjen */
+    margin: 20px auto;          /* Placer linjen og giv lidt afstand */
+    width: 80%;                 /* Bestem bredden på linjen */
+}
+
+/* Container for de nye bokse */
+.new-container {
+    display: flex;
+    justify-content: space-between; /* Placerer boksene med afstand imellem */
+    gap: 20px;
+    width: 80%;  /* Bredde på containeren */
+    margin: 20px auto; /* Centrerer containeren */
+}
+
+/* Styling for hver af de nye bokse */
+.new-box {
+    flex: 1;
+    background-color: #0e4cdd; /* Baggrundsfarve */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lidt skygge for dybde */
+}
+
+/* Styling for overskrifterne i boksene */
+.new-box h2 {
+    color: white; /* Ændrer farven på overskriften til hvid */
+    margin-bottom: 20px; /* Mellemrum under overskriften */
+}
+
+/* Styling for knapperne */
+button {
+    background-color: #f7a800; /* Knapfarve */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hover-effekt */
+}
+
+button:hover {
+    background-color: #e68900; /* Hover-effekt */
+}
